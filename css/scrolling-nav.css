@@ -270,7 +270,7 @@ header .header-content .header-content-inner p {
     border-bottom: 1px solid;
 }
 
-@media(max-width:767px) {
+@media(max-width:1000px) {
 .about-section{
     padding-top: 35px;
     height: auto;

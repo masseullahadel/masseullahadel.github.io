@@ -161,6 +161,12 @@ body {
     list-style-type: none;
     padding: 0;
 }
+@media(min-width: 1000px){
+    br{
+        display:none;
+    }
+    
+}
 .resume-section #item-date-title{
     float: left;
 }

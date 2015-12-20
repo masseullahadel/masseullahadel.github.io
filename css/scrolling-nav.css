@@ -226,8 +226,8 @@ header .header-content .header-content-inner p {
 {
     float: right;
     display: block;
-    height: 45%;
-    width: 35%;
+    height: 50%;
+    width: 40%;
     padding:10px;
     border:2px #e5e5e5;
     background-color:white;
@@ -242,6 +242,17 @@ header .header-content .header-content-inner p {
 .about-section p a:hover {
     color:#74d692;
     border-bottom: 1px solid;
+}
+
+@media(max-width:320px) {
+
+.about-section p{
+    float: none;
+}
+.about-section img{
+    float: none;
+}
+
 }
 
 .btn-social {

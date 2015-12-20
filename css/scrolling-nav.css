@@ -244,7 +244,7 @@ header .header-content .header-content-inner p {
     border-bottom: 1px solid;
 }
 
-@media(max-width:320px) {
+@media(max-width:400px) {
 
 .about-section p{
     float: none;

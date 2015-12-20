@@ -135,7 +135,8 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-
+    margin-top: 0;
+    margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 60px;
@@ -172,6 +173,26 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 60%;
         font-size: 24px;
+    }
+}
+
+@media(max-width:768px){
+    header{
+        min-height: 100%;
+    }
+    header .header-content .header-content-inner h1{
+        font-size: 36px;
+    }
+    header .header-content .header-content-inner p{
+        font-size: 18px;
+    }
+    header .header-content {
+        position: absolute;
+        top: 60%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 }
 
@@ -244,13 +265,25 @@ header .header-content .header-content-inner p {
     border-bottom: 1px solid;
 }
 
-@media(max-width:400px) {
-
+@media(max-width:767px) {
+.about-section{
+    padding-top: 35px;
+    height: auto;
+}
+.about-section h1{
+    font-size: 30px;
+}
 .about-section p{
     float: none;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 .about-section img{
     float: none;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 }
@@ -320,7 +353,7 @@ header .header-content .header-content-inner p {
 
 .projects-section {
     height: 100%;
-    padding-top: 50px;
+    padding-top: 35px;
     text-align: center;
     background: #fff;
 }
@@ -335,6 +368,7 @@ header .header-content .header-content-inner p {
 .btn-primary {
     border-color: #18bc9c;
     color: #fff;
+    margin-bottom: 10px;
     background-color: #18bc9c;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -356,67 +390,4 @@ header .header-content .header-content-inner p {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     background-image: none;
-}
-
-.resume-section {
-    height: 100%;
-    padding-top: 100px;
-    text-align: center;
-    background: #fff;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.resume-section h1 {
-    color: black;
-    margin-bottom:0px;
-    margin-top: 0px;
-}
-
-.resume-section h2 {
-    text-align: left;
-    color: black;
-    margin-bottom:0px;
-    margin-top: 0px;
-}
-.resume-section h3 {
-    text-align: left;
-    color: black;
-    margin-bottom:0px;
-    margin-top: 0px;
-}
-.resume-section #school{
-    font-weight: bold;
-}
-.resume-section h4 {
-    text-align: left;
-    color: black;
-    margin-bottom:0px;
-    margin-top: 0px;
-}
-.resume-section h5{
-    color: black;
-    margin-bottom:0px;
-    margin-top: 0px;
-}
-.resume-section #item-date{
-    list-style-type: none;
-    padding: 0;
-}
-.resume-section #item-date-title{
-    float: left;
-}
-.resume-section #item-date-date{
-    float:right;
-}
-.resume-section #item-date-list{
-    display:inline;
-}
-.resume-section ul p{
-    color: black;
-    text-align:left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.resume-section #description{
-  clear:left;
 }

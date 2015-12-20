@@ -348,7 +348,7 @@ header .header-content .header-content-inner p {
     color: #fff;
     background: #18bc9c;
 }
-@media(min-width: 1000px{
+
 .page-down-projects .btn-circle,
 .page-down-projects .btn-circle:visited,
 .page-down-projects .btn-circle:focus {
@@ -377,10 +377,10 @@ header .header-content .header-content-inner p {
     color: white;
     background: #18bc9c;
 }
-}
+
 .projects-section {
     height: 100%;
-    padding-top: 35px;
+    padding-top: 50px;
     text-align: center;
     background: #fff;
 }

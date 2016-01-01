@@ -384,7 +384,15 @@ header .header-content .header-content-inner p {
     text-align: center;
     background: #fff;
 }
-.projects-section img{
+.projects-section #Clock{
+    width: 400px;
+    height: 300px;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    margin-bottom: 10px;
+}
+.projects-section #ResistanceApp{
     width: 200px;
     height: 300px;
     margin-right:auto;

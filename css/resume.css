@@ -102,6 +102,10 @@ body {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #18bc9c;
     }
+    
+    .navbar-default #resume-button{
+        color: #18bc9c;
+    }
 }
 
 @media(min-width:767px) {

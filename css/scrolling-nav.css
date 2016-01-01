@@ -427,3 +427,13 @@ header .header-content .header-content-inner p {
 .open > .dropdown-toggle.btn-primary {
     background-image: none;
 }
+
+.projects-section #ClockLinks{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.projects-section #ClockLinks li {
+    display: inline;
+}
